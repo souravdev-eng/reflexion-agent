@@ -1,6 +1,7 @@
-def main():
-    print("Hello from reflexion-agent!")
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 
 if __name__ == "__main__":
-    main()
+    print("Hello from reflexion-agent!")
